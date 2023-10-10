@@ -183,6 +183,7 @@ input[type="password"] {
 
     .container {
         margin: 0 auto;
+        margin-bottom: 200px;
         padding: auto;
         width: 80%;
         top: 100px;
