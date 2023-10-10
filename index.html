@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- link icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login Page</title>
+</head>
+<body>
+    <!-- conteúdo principal -->
+    <main class="container">
+        <div class="container-content">
+            <h1 class="container-title">login</h1>
+            <p class="container-paragraphy">Please enter your credentials to login.</p>
+        </div>
+        <!-- formulário -->
+        <form class="form-login">
+
+            <div class="user">
+                <i class="fa-solid fa-user"></i>
+               <input type="text"  name="username" placeholder=" username" required> 
+            </div>
+
+            <div class="password">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" name="password" placeholder="password" required>
+            </div>
+            
+            <input type="submit" value="login">
+
+        </form>
+        <!-- registro -->
+        <div class="not-registered">
+            <span class="registered">Not registered? <a href="#">Create an account</a></span>
+        </div>
+    </main>
+</body>
+</html>
